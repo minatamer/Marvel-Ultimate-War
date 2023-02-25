@@ -1,0 +1,33 @@
+Greetings all,
+    This is our instructions manual to ensure the best experience of our version of fantastic GUI.
+We simply thought out of the box and asked : why not create an interface that operates by VOICE COMMAND? 
+We used an external library called sphinx4 and that allows us to create a dictionary of words that we can use
+throughout the game. This library uses the devices's microphone.
+Our words were: Move up/down/left/right.
+                           Attack up/down/left/right
+                           Cast Ability
+                           Use Leader Ability
+                           End Turn
+
+DEMO VIDEO (kindly download the video to be able to watch it) 
+>>>https://drive.google.com/file/d/1y1oJqcRIAAJc2xJHxe2emiMlZBPniz_I/view?usp=sharing
+
+
+***VERY IMPORTANT NOTE: This external library has to be downloaded on each device seperately, meaning that the game WILL NOT
+             WORK without downloading the libraries on the device. 
+             Kindly, follow the steps shown in this video from 2:25 to 3:25 and remove the existing external JARs
+             >>>https://www.youtube.com/watch?v=YHx_SBnnJRA&t=11s
+
+***Note: Please wear your headphones to prevent the music of the game itself to interfere with the command words
+              given to the microphone.
+
+***Note: The microphone is very sensitive, so - sometimes - you might need to say your command again.
+
+
+Run the "PlayerNames" class in "view" package and enjoy the show!
+
+
+By : Mina Tamer 52-0422 
+       Merola Maged 52-4825
+       Bassel Samir 52-1064
+      

@@ -1,0 +1,83 @@
+Language model created by QuickLM on Mon Jun 13 15:34:58 EDT 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 11 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=23
+ngram 3=23
+
+\1-grams:
+-0.9128 </s> -0.3010
+-0.9128 <s> -0.2444
+-1.6532 ABILITY -0.2444
+-1.3522 ATTACK -0.2606
+-1.9542 CAST -0.2913
+-1.6532 DOWN -0.2444
+-1.9542 END -0.2962
+-1.9542 LEADER -0.2913
+-1.6532 LEFT -0.2444
+-1.3522 MOVE -0.2606
+-1.6532 RIGHT -0.2444
+-1.9542 TURN -0.2444
+-1.6532 UP -0.2444
+-1.9542 USE -0.2962
+
+\2-grams:
+-0.7404 <s> ATTACK 0.0000
+-1.3424 <s> CAST 0.0000
+-1.3424 <s> END 0.0000
+-0.7404 <s> MOVE 0.0000
+-1.3424 <s> USE 0.0000
+-0.3010 ABILITY </s> -0.3010
+-0.9031 ATTACK DOWN 0.0000
+-0.9031 ATTACK LEFT 0.0000
+-0.9031 ATTACK RIGHT 0.0000
+-0.9031 ATTACK UP 0.0000
+-0.3010 CAST ABILITY 0.0000
+-0.3010 DOWN </s> -0.3010
+-0.3010 END TURN 0.0000
+-0.3010 LEADER ABILITY 0.0000
+-0.3010 LEFT </s> -0.3010
+-0.9031 MOVE DOWN 0.0000
+-0.9031 MOVE LEFT 0.0000
+-0.9031 MOVE RIGHT 0.0000
+-0.9031 MOVE UP 0.0000
+-0.3010 RIGHT </s> -0.3010
+-0.3010 TURN </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 USE LEADER 0.0000
+
+\3-grams:
+-0.9031 <s> ATTACK DOWN
+-0.9031 <s> ATTACK LEFT
+-0.9031 <s> ATTACK RIGHT
+-0.9031 <s> ATTACK UP
+-0.3010 <s> CAST ABILITY
+-0.3010 <s> END TURN
+-0.9031 <s> MOVE DOWN
+-0.9031 <s> MOVE LEFT
+-0.9031 <s> MOVE RIGHT
+-0.9031 <s> MOVE UP
+-0.3010 <s> USE LEADER
+-0.3010 ATTACK DOWN </s>
+-0.3010 ATTACK LEFT </s>
+-0.3010 ATTACK RIGHT </s>
+-0.3010 ATTACK UP </s>
+-0.3010 CAST ABILITY </s>
+-0.3010 END TURN </s>
+-0.3010 LEADER ABILITY </s>
+-0.3010 MOVE DOWN </s>
+-0.3010 MOVE LEFT </s>
+-0.3010 MOVE RIGHT </s>
+-0.3010 MOVE UP </s>
+-0.3010 USE LEADER ABILITY
+
+\end\
